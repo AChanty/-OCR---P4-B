@@ -825,6 +825,21 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+.agence-description {
+    font-size: 20px;
+    width: 60%;
+    margin: auto;
+}
+
+.testimony {
+    color: #575757;
+    font-style: italic;
+}
+
+.testimony-caption {
+    font-size: 16px;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -886,6 +901,16 @@ h4 {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
+    }
+    .testimony {
+        width: 65%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 989px) {
+    .agence-description {
+        width: 80%;
     }
 }
 
@@ -1028,6 +1053,12 @@ h4 {
     }
     .img-responsive {
         margin: auto;
+    }
+    .agence-description {
+        width: 100%;
+    }
+    .testimony {
+        width: 100%;
     }
 }
 
